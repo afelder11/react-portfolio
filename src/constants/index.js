@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate application developer with a strong ability to craft robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies, particularly MySQL, T-SQL, and PHP. Additionally, I have proficiency in Python, Swift, and working with cloud platforms like Azure. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -73,6 +74,13 @@ export const PROJECTS = [
     description:
       "An automated crypto trading bot that analyzes market data and executes trades based on predefined strategies, optimizing for real-time opportunities and maximizing potential returns.",
     technologies: ["Python", "RESTful APIs", "Pandas", "CCXT"],
+  },
+  {
+    title: "Password Manager",
+    image: project5,
+    description:
+      "An automated crypto trading bot that analyzes market data and executes trades based on predefined strategies, optimizing for real-time opportunities and maximizing potential returns.",
+    technologies: ["Python", "JSON", "Github"],
   },
 ];
 
