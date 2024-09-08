@@ -1,6 +1,7 @@
 import logo from "../assets/personallogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaAppStore } from "react-icons/fa";
 
 const NavBar = () => {
     return (
@@ -14,6 +15,9 @@ const NavBar = () => {
                 </a>
                 <a href="https://github.com/afelder11" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
+                </a>
+                <a href="https://apps.apple.com/us/app/spacewar-lite/id1509854985" target="_blank" rel="noopener noreferrer">
+                    <FaAppStore />
                 </a>
             </div>
         </nav>
