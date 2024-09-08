@@ -4,16 +4,16 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate application developer with a strong ability to craft robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies, particularly MySQL, T-SQL, and PHP. Additionally, I have proficiency in Python, Swift, and working with cloud platforms like Azure. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate application developer with a strong ability to craft robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies, particularly MySQL, T-SQL, and PHP. Additionally, I have proficiency in Python, Swift, and working with cloud platforms like Azure. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = 'I am a dedicated and versatile application developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies such as MySQL, T-SQL, Python, Swift, and PHP. Additionally, I have experience working with cloud platforms like Azure. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and playing video games.';
+export const ABOUT_TEXT = 'I am a dedicated and versatile application developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies such as MySQL, T-SQL, Python, Swift, and PHP. Additionally, I have experience working with cloud platforms like Azure. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and playing video games.';
 
 export const EXPERIENCES = [
   {
     year: "Mar 2022 - Present",
     role: "Jr Application's Developer",
     company: "Los Angeles Pacific University",
-    description: `Responsible for providing technical support for all of the installed ERP applications as well as cloud-based applications. Provi-de development and support to customize, upgrade, and maintain applications.`,
+    description: `Responsible for providing technical support for all of the installed ERP applications as well as cloud-based applications. Provide development and support to customize, upgrade, and maintain applications.`,
     technologies: ["PHP", "T-SQL", "C#", "RESTful APIs", "Azure", "Informatica"],
   },
   {
