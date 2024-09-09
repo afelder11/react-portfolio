@@ -66,7 +66,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Javascript", "HTML", "CSS", "React", "Bootstrap"],
   },
   {
     title: "Cryptocurrency Trading Bot",
@@ -84,8 +84,27 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "(305) 898-3980",
-  email: "austincfelder@gmail.com",
+export const CONTACT = 
+  {
+    address: "767 Fifth Avenue, New York, NY 10153 ",
+    phoneNo: "(305) 898-3980",
+    email: "austincfelder@gmail.com",
+  };
+
+export const EDUCATION = {
+  school: "Florida International University",
+  degree: "Bachelor of Arts",
+  major: "Computer Science",
+  gradYear: "2022",
 };
+
+export const CERTS = [
+  {
+    certification: "Microsoft Certified: Azure Developer Associate",
+    issueDate: "June 2024",
+  },
+  {
+    certification: "Microsoft Certified: Azure Fundamentals",
+    issueDate: "Jan 2024",
+  },
+];
