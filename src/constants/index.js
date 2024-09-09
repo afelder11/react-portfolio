@@ -38,7 +38,7 @@ export const EXPERIENCES = [
     technologies: ["Swift", "Github", "RESTful APIs", "Firebase"],
   },
   {
-    year: "Aug 2020 - Apr 2021",
+    year: "Feb 2019 - May 2019",
     role: "Facilitator/Instructor",
     company: "FIU CS-STEM Afterschool Program",
     description: `Elucidated the students’ existing knowledge, prepared useful training material, and monitored the student’s performance.`,
