@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Weather from './components/Weather';
+import Weather from './components/Weather.css';
 import Home from './components/Home'; // Optional: if you have a Home component
 import Navbar from './components/Navbar'; // Optional: if you have a Navbar component
 
