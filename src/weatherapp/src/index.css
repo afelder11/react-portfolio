@@ -1,37 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
-.app {
+.app{
   min-height: 100vh; /* Full viewport height */
-  width: 100%; /* Dynamic width, always takes up 100% of the available width */
-  max-width: 1200px; /* Optional: Maximum width to limit it on large screens */
-  margin: 0 auto; /* Centers the container horizontally on larger screens */
   display: grid;
-  background: #e2d4ff;
-  background-size: cover;
-  background-position: center;
+  background: #e2d4ff; /* Background color */
+  background-size: cover; /* Ensure background covers container */
+  background-position: center; /* Center the background */
+  background-attachment: fixed; /* Optional: Keep background fixed while scrolling */
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .app {
-    width: 100%; /* Takes the full width on smaller screens */
-    background-size: contain;
+    background-size: contain; /* Adjust background to fit on smaller devices */
+    background-attachment: scroll; /* Let the background scroll with content */
   }
 }
-
-/* Media query for very large screens */
-@media (min-width: 1200px) {
-  .app {
-    width: 100%; /* Still dynamic on large screens but with max-width */
-    max-width: 100%; /* This ensures the width is still flexible */
-  }
-}
-
