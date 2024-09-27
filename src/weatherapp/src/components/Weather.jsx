@@ -38,7 +38,7 @@ const weather = () => {
             return;
         }
         try {
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${import.meta.env.VITE_APP_ID}`;
 
             const response = await fetch(url);
             const data = await response.json();
@@ -64,7 +64,7 @@ const weather = () => {
     }
 
     useEffect(()=>{
-        search("London")
+        search("Miami")
     }, [])
 
     return (
@@ -75,7 +75,7 @@ const weather = () => {
             </div>
             {weatherData?<>
             <img src={weatherData.icon} alt="" className='weather-icon'/>
-            <p className='temperature'>{weatherData.temperature}°C</p>
+            <p className='temperature'>{weatherData.temperature}°F</p>
             <p className='location'>{weatherData.location}</p>
             <div className="weather-data">
                 <div className="col">
@@ -88,7 +88,7 @@ const weather = () => {
                 <div className="col">
                     <img src={wind_icon} alt="" />
                     <div>
-                        <p>{weatherData.windSpeed} Km/h</p>
+                        <p>{weatherData.windSpeed} mph</p>
                         <span>Wind Speed</span>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate application developer with a strong ability to craft robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies, particularly MySQL, T-SQL, and PHP. Additionally, I have proficiency in Python, Swift, and working with cloud platforms like Azure. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -67,6 +68,13 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["Javascript", "HTML", "CSS", "React", "Bootstrap"],
+  },
+  {
+    title: "Weather App",
+    image: project6,
+    description:
+      "A weather application that provides users with real-time weather data, including temperature, humidity, and wind speed, for any city. The app allows users to search for current weather conditions using the OpenWeatherMap API.",
+    technologies: ["React", "OpenWeatherMapAPI", "React Router","Tailwind CSS", "Vercel"],
   },
   {
     title: "Cryptocurrency Trading Bot",
